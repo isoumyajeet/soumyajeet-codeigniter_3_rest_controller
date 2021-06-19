@@ -7,3 +7,5 @@
 #Third find two files Format.php & REST_Controller.php in the library directory & place this 2 files in your library directory
 
 #Fourth the controller which you choose to make your controller as RESTFUL API services you want to configure find my Api.php file which I named to use as the web services configure your controller & enjoy. Happy Codeing
+
+If any one have any suggestion then please provide your feedback to enhace the structure.
