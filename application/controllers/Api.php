@@ -23,7 +23,7 @@ class Api extends REST_Controller
 	public function __construct()
     {
         parent::__construct();
-        $this->load->library(['form_validation','encryption', 'encrypt','session','javascript','image_lib','pagination']);
+        $this->load->library(['form_validation','encryption', 'encrypt','session','javascript','image_lib','pagination','Authorization_Token']);
         $this->load->helper(['url', 'form', 'date','admin_helper','jwt_helper']);
         $this->encryption->create_key(16);
         $this->load->model(['api_model']);
